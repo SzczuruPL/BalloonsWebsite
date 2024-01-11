@@ -1,0 +1,144 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>TNG Balloon</title>
+    <link rel="icon" type="image/png" href="img/flvic.png">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+
+  <body class="d-flex flex-column min-vh-100 bg-dark">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="img/tng.png" alt="" width="120" height="40" class="d-inline-block align-text-top">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarText">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="index.html">TNG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="news.php">Aktualności</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="fleet.html">Flota</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold active" aria-current="page" href="#">Cennik</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link fw-bold" href="contact.php">Kontakt</a>
+            </li>
+          </ul>
+          <span class="navbar-text" id="clock">
+            <script src="js/holytime.js"></script>
+          </span>
+        </div>
+      </div>
+    </nav>
+
+    <main role="main" class="inner cover text-white text-center p-3" style="min-width: 75%; margin-left: auto; margin-right: auto;">
+        <h1 class="display-5" style="padding-bottom: 25px;">Cennik usług</h1>
+        <table class="table table-dark table-bordered table-striped border-white-50">
+            <thead>
+              <tr>
+                <th scope="col">Usługa</th>
+                <th scope="col">Ilość osób</th>
+                <th scope="col">Czas lotu</th>
+                <th scope="col">Cena</th>
+              </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">Lot last minute</th>
+                    <td>1 osoba</td>
+                    <td>1-3 godzin</td>
+                    <td>od 500zł</td>
+                </tr>
+                <tr>
+                    <th scope="row">Lot nad Jurą</th>
+                    <td>1-12 osób</td>
+                    <td>1-3 godzin</td>
+                    <td>od 800zł</td>
+                </tr>
+                <tr>
+                    <th scope="row">Lot w Ojcowie</th>
+                    <td>1-12 osób</td>
+                    <td>1-3 godzin</td>
+                    <td>od 800zł</td>
+                </tr>
+                <tr>
+                    <th scope="row">Lot w okolicach krakowa</th>
+                    <td>1-12 osób</td>
+                    <td>1-3 godzin</td>
+                    <td>od 700zł</td>
+                </tr>
+                <tr>
+                    <th scope="row">Lot nad Tatrami</th>
+                    <td>1-12 osób</td>
+                    <td>1-3 godzin</td>
+                    <td>od 1500zł</td>
+                </tr>
+                <tr>
+                    <th scope="row">Voucher</th>
+                    <td>1 osoba</td>
+                    <td>1-3 godzin</td>
+                    <td>od 700zł / osoba</td>
+                </tr>
+                <tr>
+                    <th scope="row">Lot urodzinowy</th>
+                    <td>3 osoby</td>
+                    <td>1-3 godzin</td>
+                    <td>od 2000zł</td>
+                </tr>
+                <tr>
+                    <th scope="row">Zaręczyny w balonie</th>
+                    <td>3 osoby</td>
+                    <td>1-3 godzin</td>
+                    <td>od 2500zł</td>
+                </tr>
+                <tr>
+                    <th scope="row">Ślub w balonie</th>
+                    <td>3 osoby</td>
+                    <td>1-3 godzin</td>
+                    <td>od 4500zł</td>
+                </tr>
+                <tr>
+                    <th scope="row">Lot reklamowy</th>
+                    <td>-</td>
+                    <td>1-3 godzin</td>
+                    <td>od 2500zł</td>
+                </tr>
+                <tr>
+                    <th scope="row">Lot na uwięzi</th>
+                    <td>1-12 osób</td>
+                    <td>-</td>
+                    <td>od 2500zł</td>
+                </tr>
+                <tr>
+                    <th scope="row">Ekspozycja stała</th>
+                    <td>-</td>
+                    <td>-</td>
+                    <td>od 2500zł</td>
+                </tr>
+            </tbody>
+          </table>
+          <p style="padding-top: 25px;">Jeśli jesteś zainteresowany naszą ofertą, nie wahaj się i skontatuj się z nami!</p>
+          <a href="contact.php" class="btn btn-outline-light">Kontakt</a>
+    </main>
+    
+    <footer class="mt-auto">
+        <div class="bg-dark text-center p-3 text-white-50">
+            © 2022 - Jakub Michał Biłyk for TNG Balloon Travel
+        </div>
+      </footer>
+    </body>
+  </html>
